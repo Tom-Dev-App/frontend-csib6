@@ -32,7 +32,6 @@ const authService = () => {
       // Save to cookies
       Cookies.set("token", token);
       Cookies.set("user", user);
-      navigate("/dashboard");
     } catch (error) {
       throw error;
     }
